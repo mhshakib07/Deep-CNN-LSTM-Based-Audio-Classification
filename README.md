@@ -28,6 +28,7 @@
    augmented_audio = librosa.effects.time_stretch(y, rate=**0.8**)  # Time stretching
    
 2. **Feature Extraction**
+   
       We extract **169 spectral features**
 
 3. **Training:** **80%** train, **10%** validation, **10%** test with early stopping (patience=5).
