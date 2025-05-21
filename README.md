@@ -37,7 +37,7 @@
 | Model                  | Accuracy | Dataset       |
 |------------------------|----------|---------------|
 | **Proposed DCNN-LSTM** | 93.19%   | UrbanSound8K  |
-| GoogleNet [[6]](#references) | 93.00%   | UrbanSound8K  |
-| Conv1D + Gammatone [[5]](#references) | 89.00%   | UrbanSound8K  |
+| GoogleNet              | 93.00%   | UrbanSound8K  |
+| Conv1D + Gammatone     | 89.00%   | UrbanSound8K  |
 
 **Key Insight**: Our hybrid DCNN-LSTM model outperforms comparable architectures, achieving state-of-the-art results on UrbanSound8K.
